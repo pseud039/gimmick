@@ -1,0 +1,1222 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>
+      Batch Wise Inventory Management for Expiry-Based Products | Hitech Billsoft
+    </title>
+
+    <meta property="og:locale" content="en_US" />
+    <meta property="og:type" content="article" />
+
+    <meta
+      property="og:title"
+      content="Batch Wise Inventory Management for Expiry-Based Products | Hitech Billsoft"
+    />
+
+    <meta property="og:site_name" content="Hitech Billsoft" />
+
+    <meta
+      property="og:description"
+      content="Learn how to manage batch-wise inventory, track expiry dates, reduce expired stock, and use FEFO for pharmacies, FMCG, food, and other businesses."
+    />
+
+    <meta
+      property="og:url"
+      content="https://billingsoftwareindia.in/blogs/batch-wise-inventory-management-expiry-products/"
+    />
+
+    <meta
+      property="og:image"
+      content="../../assets/blogs/batch-wise-inventory-management-expiry-products/img1.webp"
+    />
+
+    <meta
+      name="description"
+      content="Learn how to manage batch-wise inventory, track expiry dates, reduce expired stock, and use FEFO for pharmacies, FMCG, food, and other businesses."
+    />
+
+    <meta name="language" content="en" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../../css/blog-page.css" />
+    <link rel="stylesheet" href="../../css/global.css" />
+    <link rel="stylesheet" href="../../css/toast.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.css"
+    />
+
+    <link
+      rel="shortcut icon"
+      href="../../assets/favicon.png"
+      type="image/x-icon"
+    />
+
+    <link
+      rel="canonical"
+      href="https://billingsoftwareindia.in/blogs/batch-wise-inventory-management-expiry-products/"
+    />
+
+    <!-- Google Analytics -->
+
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=G-V5SJPPSDD9"
+    ></script>
+
+    <script>
+      window.dataLayer = window.dataLayer || [];
+
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+
+      gtag("js", new Date());
+      gtag("config", "G-V5SJPPSDD9");
+    </script>
+  </head>
+
+  <body class="force-inter">
+    <div id="header"></div>
+
+    <section class="main">
+      <div class="container mt-5 pb-3">
+        <div class="row align-items-lg-center">
+          <div class="col-lg mb-2 mb-lg-0">
+            <h2>
+              Batch Wise Inventory Management for Expiry-Based Products: A Complete Guide
+            </h2>
+          </div>
+        </div>
+      </div>
+
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-8 mb-9 mb-lg-0">
+            <div
+              class="border rounded-3 d-flex align-items-center justify-content-center bg-light mb-4"
+            >
+              <img
+                src="../../assets/blogs/batch-wise-inventory-management-expiry-products/hero-image.webp"
+                alt="Batch wise inventory management for expiry-based products"
+                class="img-fluid rounded-3"
+              />
+            </div>
+
+            <p>Managing inventory becomes significantly more complicated when your products have different batch numbers, manufacturing dates, expiry dates, and shelf lives.</p>
+
+            <p>A business may have the same product purchased at different times, but each batch can have a different expiry date. If these batches are not tracked properly, older stock can remain unsold while newer stock gets sold first. This can result in expired products, stock wastage, financial losses, inaccurate inventory records, and unhappy customers.</p>
+
+            <p>This is why businesses dealing with medicines, food products, cosmetics, FMCG products, supplements, and other expiry-based items need proper batch wise inventory management.</p>
+
+            <p>With a billing and inventory management system such as Hitech BillSoft, businesses can maintain detailed batch information, monitor stock movement, identify products nearing expiry, and manage inventory more efficiently.</p>
+
+            <ul
+              class="list-pointer list-pointer-sm list-pointer-soft-bg-primary"
+            >
+              <li class="list-pointer-item"><a href="#what-is-batch-wise-inventory"> What Is Batch Wise Inventory Management? </a></li>
+              <li class="list-pointer-item"><a href="#why-batch-tracking"> Why Is Batch Tracking Important for Expiry-Based Products? </a></li>
+              <li class="list-pointer-item"><a href="#fifo-vs-fefo"> FIFO vs FEFO: Which Method Is Better for Expiry-Based Inventory? </a></li>
+              <li class="list-pointer-item"><a href="#how-to-manage"> How to Manage Batch Wise Inventory Effectively </a></li>
+              <li class="list-pointer-item"><a href="#near-expiry"> How to Manage Near-Expiry Inventory </a></li>
+              <li class="list-pointer-item"><a href="#expired-stock"> What Happens When Expired Stock Is Not Managed? </a></li>
+              <li class="list-pointer-item"><a href="#software-helps"> How Billing and Inventory Software Helps With Batch Management </a></li>
+              <li class="list-pointer-item"><a href="#pharmacies"> Batch Wise Inventory Management for Pharmacies </a></li>
+              <li class="list-pointer-item"><a href="#fmcg"> Batch Inventory Management for FMCG Businesses </a></li>
+              <li class="list-pointer-item"><a href="#food-grocery"> Batch Tracking for Food and Grocery Businesses </a></li>
+              <li class="list-pointer-item"><a href="#common-mistakes"> Common Mistakes in Expiry-Based Inventory Management </a></li>
+              <li class="list-pointer-item"><a href="#best-practices"> Best Practices for Batch Wise Inventory Management </a></li>
+              <li class="list-pointer-item"><a href="#how-hitech-helps"> How Hitech BillSoft Can Help Businesses Manage Inventory Better </a></li>
+              <li class="list-pointer-item"><a href="#workflow"> A Simple Batch Inventory Workflow </a></li>
+              <li class="list-pointer-item"><a href="#faq"> Frequently Asked Questions </a></li>
+            </ul>
+
+            <h3 class="my-5" id="what-is-batch-wise-inventory">What Is Batch Wise Inventory Management?</h3>
+
+            <p>Batch wise inventory management means tracking products separately according to their batch or lot number.</p>
+
+            <p>Instead of treating all units of the same product as one stock quantity, each batch is maintained with important information such as:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Product name</li>
+              <li class="list-checked-item">Batch number</li>
+              <li class="list-checked-item">Manufacturing date</li>
+              <li class="list-checked-item">Expiry date</li>
+              <li class="list-checked-item">Purchase date</li>
+              <li class="list-checked-item">Purchase price</li>
+              <li class="list-checked-item">Selling price or MRP</li>
+              <li class="list-checked-item">Quantity received</li>
+              <li class="list-checked-item">Quantity sold</li>
+              <li class="list-checked-item">Available stock</li>
+              <li class="list-checked-item">Supplier details</li>
+            </ul>
+
+            <p>For example, suppose a pharmacy has 100 units of a medicine.</p>
+
+            <p>The stock may actually consist of:</p>
+
+            <div class="table-responsive my-4">
+              <table class="table table-bordered align-middle">
+                <thead class="table-light">
+                  <tr>
+                    <th>Batch</th>
+                    <th>Manufacturing Date</th>
+                    <th>Expiry Date</th>
+                    <th>Quantity</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>B101</td><td>January 2026</td><td>December 2026</td><td>40</td></tr>
+                  <tr><td>B205</td><td>March 2026</td><td>February 2027</td><td>35</td></tr>
+                  <tr><td>B318</td><td>May 2026</td><td>April 2027</td><td>25</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>Although all 100 units are the same medicine, they should not necessarily be treated as one undifferentiated stock quantity.</p>
+
+            <p>The first batch expires earlier, so it should generally be sold before the later batches.</p>
+
+            <p>This is where batch wise inventory management becomes important.</p>
+
+            <h3 class="my-5" id="why-batch-tracking">Why Is Batch Tracking Important for Expiry-Based Products?</h3>
+
+            <p>Businesses dealing with expiry-based products cannot rely only on total stock quantities.</p>
+
+            <p>Knowing that you have 500 units available does not tell you:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Which batch the units belong to</li>
+              <li class="list-checked-item">Which batch expires first</li>
+              <li class="list-checked-item">How much stock is nearing expiry</li>
+              <li class="list-checked-item">Which products have already expired</li>
+              <li class="list-checked-item">Which batch should be sold first</li>
+              <li class="list-checked-item">How much stock is sitting unsold for too long</li>
+            </ul>
+
+            <p>Batch tracking solves this problem by giving businesses visibility into stock at the batch level.</p>
+
+            <h4 class="my-4">1. Helps Prevent Expired Stock</h4>
+
+            <p>When expiry dates are recorded against individual batches, businesses can identify products that are approaching their expiry dates.</p>
+
+            <p>This gives the business time to take action instead of discovering expired products during a physical stock check.</p>
+
+            <h4 class="my-4">2. Reduces Inventory Wastage</h4>
+
+            <p>Expired products generally cannot be sold.</p>
+
+            <p>If a business allows products to expire on the shelf, the purchase cost of that inventory can effectively become a loss.</p>
+
+            <p>Proper batch tracking helps businesses identify slow-moving and near-expiry products earlier.</p>
+
+            <h4 class="my-4">3. Improves Stock Rotation</h4>
+
+            <p>Businesses can prioritize the sale of batches that are closer to expiry.</p>
+
+            <p>This helps maintain healthier inventory movement and reduces the chances of older stock being left behind.</p>
+
+            <h4 class="my-4">4. Makes Stock Audits Easier</h4>
+
+            <p>Instead of manually checking every product and searching through purchase records, businesses can use batch-level information to understand where their inventory stands.</p>
+
+            <h4 class="my-4">5. Improves Traceability</h4>
+
+            <p>If there is an issue with a particular batch, businesses can identify the affected stock more easily.</p>
+
+            <p>This is particularly useful for pharmacies, manufacturers, distributors, food businesses, and other industries where batch traceability matters.</p>
+
+            <h3 class="my-5" id="fifo-vs-fefo">FIFO vs FEFO: Which Method Is Better for Expiry-Based Inventory?</h3>
+
+            <p>Two common inventory rotation methods are FIFO and FEFO.</p>
+
+            <h4 class="my-4">FIFO: First In, First Out</h4>
+
+            <p>FIFO means the products that entered the inventory first should be sold first.</p>
+
+            <p>For example:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Batch A purchased in January</li>
+              <li class="list-checked-item">Batch B purchased in March</li>
+            </ul>
+
+            <p>Under FIFO, Batch A would generally be sold before Batch B.</p>
+
+            <p>FIFO works well when older inventory is also more likely to expire first.</p>
+
+            <p>However, purchase date and expiry date are not always directly related.</p>
+
+            <h4 class="my-4">FEFO: First Expiry, First Out</h4>
+
+            <p>FEFO means:</p>
+
+            <p>First Expiry, First Out.</p>
+
+            <p>Under FEFO, the batch with the earliest expiry date is prioritized for sale, regardless of when it was purchased.</p>
+
+            <p>For expiry-based products, FEFO is often more practical than relying only on FIFO.</p>
+
+            <p>For example:</p>
+
+            <div class="table-responsive my-4">
+              <table class="table table-bordered align-middle">
+                <thead class="table-light">
+                  <tr>
+                    <th>Batch</th>
+                    <th>Purchase Date</th>
+                    <th>Expiry Date</th>
+                    <th>Selling Priority</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>A101</td><td>January</td><td>October</td><td>1</td></tr>
+                  <tr><td>B202</td><td>February</td><td>December</td><td>2</td></tr>
+                  <tr><td>C303</td><td>March</td><td>September</td><td>1</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>Although Batch C303 was purchased last, it expires first. Therefore, it should be prioritized under FEFO.</p>
+
+            <h4 class="my-4">FIFO vs FEFO</h4>
+
+            <div class="table-responsive my-4">
+              <table class="table table-bordered align-middle">
+                <thead class="table-light">
+                  <tr>
+                    <th>FIFO</th>
+                    <th>FEFO</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>First In, First Out</td><td>First Expiry, First Out</td></tr>
+                  <tr><td>Based on stock entry date</td><td>Based on expiry date</td></tr>
+                  <tr><td>Useful for general inventory</td><td>Particularly useful for expiry-based products</td></tr>
+                  <tr><td>Does not always prioritize earliest expiry</td><td>Directly prioritizes earliest expiry</td></tr>
+                  <tr><td>Common inventory rotation method</td><td>Useful for medicines, food, FMCG, cosmetics, etc.</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>For businesses selling expiry-based products, tracking expiry dates at the batch level makes FEFO-based inventory management much easier.</p>
+
+            <h3 class="my-5" id="how-to-manage">How to Manage Batch Wise Inventory Effectively</h3>
+
+            <p>A proper batch inventory system should connect purchasing, stock management, billing, and expiry tracking.</p>
+
+            <p>Here is a practical workflow.</p>
+
+            <h4 class="my-4">Step 1: Create the Product</h4>
+
+            <p>Start by creating the product in your inventory system.</p>
+
+            <p>Record information such as:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Product name</li>
+              <li class="list-checked-item">Category</li>
+              <li class="list-checked-item">Unit</li>
+              <li class="list-checked-item">MRP</li>
+              <li class="list-checked-item">Selling price</li>
+              <li class="list-checked-item">Tax details</li>
+              <li class="list-checked-item">Inventory settings</li>
+            </ul>
+
+            <h4 class="my-4">Step 2: Record Batch Details During Purchase</h4>
+
+            <p>Whenever new stock arrives, record the relevant batch information.</p>
+
+            <p>This may include:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Batch number</li>
+              <li class="list-checked-item">Manufacturing date</li>
+              <li class="list-checked-item">Expiry date</li>
+              <li class="list-checked-item">Quantity</li>
+              <li class="list-checked-item">Purchase price</li>
+              <li class="list-checked-item">MRP</li>
+              <li class="list-checked-item">Supplier</li>
+              <li class="list-checked-item">Purchase date</li>
+            </ul>
+
+            <p>This creates a clear inventory record from the beginning.</p>
+
+            <h4 class="my-4">Step 3: Maintain Stock Separately by Batch</h4>
+
+            <p>The system should distinguish between different batches of the same product.</p>
+
+            <p>For example:</p>
+
+            <p><strong>Paracetamol 500 mg</strong></p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Batch P101: 60 units</li>
+              <li class="list-checked-item">Batch P205: 100 units</li>
+              <li class="list-checked-item">Batch P309: 75 units</li>
+            </ul>
+
+            <p>This gives the business a more accurate picture of its actual inventory.</p>
+
+            <h4 class="my-4">Step 4: Sell the Appropriate Batch First</h4>
+
+            <p>When creating a sale, the business can prioritize the batch that should leave the inventory first.</p>
+
+            <p>For expiry-based products, this generally means prioritizing the batch with the earliest expiry date.</p>
+
+            <h4 class="my-4">Step 5: Monitor Near-Expiry Products</h4>
+
+            <p>Near-expiry stock should be identified before it becomes expired stock.</p>
+
+            <p>Businesses can review their inventory regularly and identify products that are approaching their expiry dates.</p>
+
+            <p>This creates an opportunity to:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Prioritize sales</li>
+              <li class="list-checked-item">Offer appropriate discounts where applicable</li>
+              <li class="list-checked-item">Return eligible stock to suppliers</li>
+              <li class="list-checked-item">Adjust purchasing decisions</li>
+              <li class="list-checked-item">Reduce future wastage</li>
+            </ul>
+
+            <h4 class="my-4">Step 6: Remove or Manage Expired Stock</h4>
+
+            <p>Expired products should be identified separately from sellable inventory.</p>
+
+            <p>Keeping expired stock mixed with active inventory can result in accidental sales and inaccurate stock reports.</p>
+
+            <p>A proper inventory process should clearly identify expired or unusable products.</p>
+
+            <h3 class="my-5" id="near-expiry">How to Manage Near-Expiry Inventory</h3>
+
+            <p>Near-expiry inventory is one of the biggest challenges for businesses selling products with limited shelf lives.</p>
+
+            <p>Suppose a store has 50 units of a product expiring within the next 30 days.</p>
+
+            <p>If this information is not visible, the business may continue purchasing the same product while the existing stock remains unsold.</p>
+
+            <p>A better approach is to regularly review:</p>
+
+            <p><strong>Product → Batch → Available Quantity → Expiry Date → Days Remaining</strong></p>
+
+            <p>Based on this information, businesses can decide what action to take.</p>
+
+            <p>Common actions for near-expiry stock include:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Prioritize the batch for sale</li>
+              <li class="list-checked-item">Stop purchasing additional stock unnecessarily</li>
+              <li class="list-checked-item">Offer discounts where commercially appropriate</li>
+              <li class="list-checked-item">Contact suppliers about eligible returns</li>
+              <li class="list-checked-item">Move stock to locations where demand is higher</li>
+              <li class="list-checked-item">Monitor the product more frequently</li>
+            </ul>
+
+            <p>The objective is simple:</p>
+
+            <p>Identify the problem before the product expires.</p>
+
+            <h3 class="my-5" id="expired-stock">What Happens When Expired Stock Is Not Managed?</h3>
+
+            <p>Poor expiry management can create several problems.</p>
+
+            <h4 class="my-4">Financial Loss</h4>
+
+            <p>The business has already spent money purchasing the inventory, but the product may no longer be sellable.</p>
+
+            <h4 class="my-4">Dead Stock</h4>
+
+            <p>Expired products occupy storage space without contributing to revenue.</p>
+
+            <h4 class="my-4">Inaccurate Inventory</h4>
+
+            <p>If expired products remain included in available stock, the system may show more sellable inventory than the business actually has.</p>
+
+            <h4 class="my-4">Customer Complaints</h4>
+
+            <p>Selling expired products can seriously damage customer trust and create compliance and reputational concerns.</p>
+
+            <h4 class="my-4">Poor Purchasing Decisions</h4>
+
+            <p>If expired and active inventory are not clearly separated, businesses may misunderstand actual demand and continue purchasing products unnecessarily.</p>
+
+            <h3 class="my-5" id="software-helps">How Billing and Inventory Software Helps With Batch Management</h3>
+
+            <p>Managing batch information manually in notebooks, spreadsheets, or disconnected records can become difficult as inventory grows.</p>
+
+            <p>A billing and inventory management system can bring these processes together.</p>
+
+            <p>With Hitech BillSoft, businesses can manage their billing and inventory records from a centralized system while maintaining important product and stock information.</p>
+
+            <p>Instead of maintaining separate records for purchases, sales, and inventory, businesses can connect these activities through a structured billing and inventory workflow.</p>
+
+            <h4 class="my-4">Batch-Level Stock Visibility</h4>
+
+            <p>Businesses dealing with multiple batches can maintain detailed stock records and understand how much inventory is available.</p>
+
+            <h4 class="my-4">Expiry Date Tracking</h4>
+
+            <p>Expiry-related information can be maintained with the relevant product or batch, helping businesses identify stock that needs attention.</p>
+
+            <h4 class="my-4">Inventory Reports</h4>
+
+            <p>Inventory reports can help businesses understand their stock position and identify products requiring action.</p>
+
+            <h4 class="my-4">Faster Billing</h4>
+
+            <p>When product and inventory information is organized properly, billing becomes faster and less dependent on manual calculations and records.</p>
+
+            <h4 class="my-4">Better Purchase Planning</h4>
+
+            <p>Historical sales and inventory information can help businesses make better purchasing decisions and avoid unnecessary overstocking.</p>
+
+            <h3 class="my-5" id="pharmacies">Batch Wise Inventory Management for Pharmacies</h3>
+
+            <p>Pharmacies are one of the clearest examples of businesses that require batch and expiry tracking.</p>
+
+            <p>A medical store may have multiple batches of the same medicine, each with different expiry dates.</p>
+
+            <p>For example:</p>
+
+            <div class="table-responsive my-4">
+              <table class="table table-bordered align-middle">
+                <thead class="table-light">
+                  <tr>
+                    <th>Medicine</th>
+                    <th>Batch</th>
+                    <th>Expiry</th>
+                    <th>Stock</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr><td>Medicine A</td><td>M101</td><td>Nov 2026</td><td>30</td></tr>
+                  <tr><td>Medicine A</td><td>M204</td><td>Jan 2027</td><td>50</td></tr>
+                  <tr><td>Medicine A</td><td>M309</td><td>Apr 2027</td><td>70</td></tr>
+                </tbody>
+              </table>
+            </div>
+
+            <p>Without batch tracking, the pharmacist may only see:</p>
+
+            <p><strong>Medicine A: 150 units</strong></p>
+
+            <p>But the more useful information is:</p>
+
+            <p><strong>Medicine A: 150 units across 3 batches, with different expiry dates.</strong></p>
+
+            <p>This distinction can make a major difference in inventory management.</p>
+
+            <p>Batch-wise inventory management can help pharmacies improve:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Medicine expiry tracking</li>
+              <li class="list-checked-item">Stock rotation</li>
+              <li class="list-checked-item">Purchase management</li>
+              <li class="list-checked-item">Inventory accuracy</li>
+              <li class="list-checked-item">Batch traceability</li>
+              <li class="list-checked-item">Near-expiry identification</li>
+              <li class="list-checked-item">Billing efficiency</li>
+            </ul>
+
+            <h3 class="my-5" id="fmcg">Batch Inventory Management for FMCG Businesses</h3>
+
+            <p>FMCG businesses also deal with products that have limited shelf lives.</p>
+
+            <p>Examples include:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Packaged food</li>
+              <li class="list-checked-item">Beverages</li>
+              <li class="list-checked-item">Dairy products</li>
+              <li class="list-checked-item">Personal care products</li>
+              <li class="list-checked-item">Cosmetics</li>
+              <li class="list-checked-item">Snacks</li>
+              <li class="list-checked-item">Household products</li>
+              <li class="list-checked-item">Nutritional products</li>
+            </ul>
+
+            <p>A distributor or retailer may receive the same SKU multiple times from different suppliers or at different dates.</p>
+
+            <p>Each shipment may have a different batch and expiry date.</p>
+
+            <p>Batch tracking allows the business to understand exactly which stock is moving and which stock is getting closer to expiry.</p>
+
+            <p>This is especially useful for businesses operating warehouses, multiple stores, distributors, and wholesale operations.</p>
+
+            <h3 class="my-5" id="food-grocery">Batch Tracking for Food and Grocery Businesses</h3>
+
+            <p>Food products can have relatively short shelf lives, making expiry management particularly important.</p>
+
+            <p>A grocery store may have:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Fresh products</li>
+              <li class="list-checked-item">Packaged food</li>
+              <li class="list-checked-item">Frozen products</li>
+              <li class="list-checked-item">Beverages</li>
+              <li class="list-checked-item">Snacks</li>
+              <li class="list-checked-item">Dairy products</li>
+              <li class="list-checked-item">Processed food</li>
+            </ul>
+
+            <p>Instead of simply tracking the total quantity of each product, businesses can maintain batch and expiry information to improve stock rotation.</p>
+
+            <p>For products with short shelf lives, FEFO-based stock movement can help reduce avoidable wastage.</p>
+
+            <h3 class="my-5" id="common-mistakes">Common Mistakes in Expiry-Based Inventory Management</h3>
+
+            <p>Even businesses that maintain inventory records can make mistakes when expiry information is not properly integrated into their stock management process.</p>
+
+            <h4 class="my-4">Mistake 1: Tracking Only Total Quantity</h4>
+
+            <p>Knowing that you have 1,000 units does not tell you how many belong to each batch or when those batches expire.</p>
+
+            <h4 class="my-4">Mistake 2: Using Only Purchase Dates</h4>
+
+            <p>Purchase date alone cannot always determine which product should be sold first.</p>
+
+            <p>Expiry date should be considered for expiry-based products.</p>
+
+            <h4 class="my-4">Mistake 3: Ignoring Near-Expiry Stock</h4>
+
+            <p>Waiting until products have already expired is too late.</p>
+
+            <p>Near-expiry stock should be identified early.</p>
+
+            <h4 class="my-4">Mistake 4: Mixing Different Batches</h4>
+
+            <p>Combining different batches into one undifferentiated stock record makes traceability and expiry management difficult.</p>
+
+            <h4 class="my-4">Mistake 5: Relying Entirely on Manual Records</h4>
+
+            <p>Manual registers and spreadsheets can become difficult to maintain as product volume increases.</p>
+
+            <h4 class="my-4">Mistake 6: Continuing to Purchase Slow-Moving Products</h4>
+
+            <p>If a product is repeatedly approaching expiry before being sold, the business should review its purchasing quantity and sales velocity.</p>
+
+            <h4 class="my-4">Mistake 7: Not Reviewing Inventory Regularly</h4>
+
+            <p>Even the best inventory system is only useful when businesses actually review their stock information and act on it.</p>
+
+            <h3 class="my-5" id="best-practices">Best Practices for Batch Wise Inventory Management</h3>
+
+            <p>To improve batch and expiry management, businesses should follow a consistent process.</p>
+
+            <h4 class="my-4">1. Record Batch Information at the Time of Purchase</h4>
+
+            <p>Do not wait until the product is sold to record its batch details.</p>
+
+            <h4 class="my-4">2. Always Capture Expiry Dates</h4>
+
+            <p>Expiry information is particularly important for products with limited shelf lives.</p>
+
+            <h4 class="my-4">3. Use FEFO Where Appropriate</h4>
+
+            <p>Prioritize products with earlier expiry dates rather than relying exclusively on purchase dates.</p>
+
+            <h4 class="my-4">4. Review Near-Expiry Stock Regularly</h4>
+
+            <p>Set a regular process for identifying products approaching expiry.</p>
+
+            <h4 class="my-4">5. Separate Expired Inventory</h4>
+
+            <p>Expired stock should be clearly identified and managed separately from sellable inventory.</p>
+
+            <h4 class="my-4">6. Monitor Slow-Moving Products</h4>
+
+            <p>Products that remain in stock for long periods have a greater chance of becoming dead or expired stock.</p>
+
+            <h4 class="my-4">7. Use Inventory Reports for Purchasing Decisions</h4>
+
+            <p>Purchase quantities should be based on demand, stock levels, product movement, and shelf life.</p>
+
+            <h4 class="my-4">8. Keep Billing and Inventory Connected</h4>
+
+            <p>When sales and inventory records are connected, stock movement can be updated more efficiently.</p>
+
+            <h3 class="my-5" id="how-hitech-helps">How Hitech BillSoft Can Help Businesses Manage Inventory Better</h3>
+
+            <p>For businesses managing products across multiple categories, locations, suppliers, and batches, inventory management can quickly become complicated.</p>
+
+            <p>Hitech BillSoft brings billing and inventory management together so businesses can spend less time maintaining manual records and more time managing their operations.</p>
+
+            <p>From product and stock management to billing and business reports, a centralized system can make it easier to understand what you have, what you are selling, and what needs attention.</p>
+
+            <p>For businesses dealing with expiry-based products, maintaining accurate batch and expiry information is an important part of building a reliable inventory management process.</p>
+
+            <h3 class="my-5" id="workflow">A Simple Batch Inventory Workflow</h3>
+
+            <p>A well-organized process can look like this:</p>
+
+            <ul class="list-checked list-checked-primary list-checked-soft-bg-primary">
+              <li class="list-checked-item">Purchase Stock</li>
+              <li class="list-checked-item">Record Product + Batch + Expiry Details</li>
+              <li class="list-checked-item">Add Stock to Inventory</li>
+              <li class="list-checked-item">Monitor Stock Movement</li>
+              <li class="list-checked-item">Prioritize Earlier-Expiring Batches</li>
+              <li class="list-checked-item">Identify Near-Expiry Products</li>
+              <li class="list-checked-item">Take Action Before Expiry</li>
+              <li class="list-checked-item">Remove/Manage Expired Stock</li>
+              <li class="list-checked-item">Review Reports and Improve Future Purchasing</li>
+            </ul>
+
+            <p>This creates a continuous inventory cycle instead of treating expiry management as a one-time activity.</p>
+          </div>
+
+      <div class="col-md-4">
+          <div class="sticky-top pt-3">
+            <div class="mb-7">
+              <div class="mb-3">
+                <h3>Also Read</h3>
+              </div>
+
+              <div class="d-grid gap-2">
+                <!-- Card -->
+                <a class="d-block" href="../invoice-numbering-rules-under-gst/">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="avatar avatar-lg">
+                        <img
+                          class="img-thumbnail avatar-img"
+                          src="../../assets/blogs/invoice-numbering-rules-under-gst/hero-image.webp"
+                          alt="Image Description"
+                        />
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h5 class="text-inherit mb-0">
+                        Invoice Numbering Rules Under GST: Format, Requirements
+                        &amp; Examples
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+                <!-- End Card -->
+
+                <!-- Card -->
+                <a class="d-block" href="../gst-registration/">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="avatar avatar-lg">
+                        <img
+                          class="img-thumbnail avatar-img"
+                          src="../../assets/blogs/gst-registration/img1.webp"
+                          alt="Image Description"
+                        />
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h5 class="text-inherit mb-0">
+                        GST Registration
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+                <!-- End Card -->
+
+                <!-- Card -->
+                <a
+                  class="d-block"
+                  href="../how-invoice-management-system-ims-improves-gst-compliance-india/"
+                >
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="avatar avatar-lg">
+                        <img
+                          class="img-thumbnail avatar-img"
+                          src="../../assets/blogs/how-invoice-management-system-ims-improves-gst-compliance-india/img1.webp"
+                          alt="Image Description"
+                        />
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h5 class="text-inherit mb-0">
+                        How Invoice Management System (IMS) Improves GST
+                        Compliance in India
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+                <!-- End Card -->
+
+                <!-- Card -->
+                <a class="d-block" href="../gst-invoice-mandatory-fields-rule-46-checklist/">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="avatar avatar-lg">
+                        <img
+                          class="img-thumbnail avatar-img"
+                          src="../../assets/blogs/gst-invoice-mandatory-fields-rule-46-checklist/img1.webp"
+                          alt="Image Description"
+                        />
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h5 class="text-inherit mb-0">
+                        GST Invoice Mandatory Fields - Rule 46 Checklist
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+                <!-- End Card -->
+
+                <!-- Card -->
+                <a class="d-block" href="../migrate-from-excel-billing-to-gst-billing-software/">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="avatar avatar-lg">
+                        <img
+                          class="img-thumbnail avatar-img"
+                          src="../../assets/blogs/migrate-from-excel-billing-to-gst-billing-software/hero-image.webp"
+                          alt="Image Description"
+                        />
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h5 class="text-inherit mb-0">
+                        Migrate from Excel Billing to GST Billing Software
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+                <!-- End Card -->
+
+                <!-- Card -->
+                <a class="d-block" href="../gst-compliance-checklist-for-msmes-fy-2026-27/">
+                  <div class="d-flex align-items-center">
+                    <div class="flex-shrink-0">
+                      <div class="avatar avatar-lg">
+                        <img
+                          class="img-thumbnail avatar-img"
+                          src="../../assets/blogs/gst-compliance-checklist-for-msmes-fy-2026-27/img1.webp"
+                          alt="Image Description"
+                        />
+                      </div>
+                    </div>
+                    <div class="flex-grow-1 ms-3">
+                      <h5 class="text-inherit mb-0">
+                        GST Compliance Checklist for MSMEs - FY 2026-27
+                      </h5>
+                    </div>
+                  </div>
+                </a>
+                <!-- End Card -->
+              </div>
+                 <!-- Sidebar CTA -->
+                <div class="border rounded-3 bg-light p-3 mt-3 text-center">
+                  <h5 class="mb-1">Grow Your Business with Hitech Billsoft</h5>
+                  <a
+                    href="https://www.billingsoftwareindia.in/download/"
+                    class="btn btn-primary btn-xs"
+                    >Try for FREE Today!!</a
+                  >
+                </div>
+                <!-- End Sidebar CTA -->
+
+              <hr />
+              <div class="mt-3">
+                <div class="mb-2 text-dark small">Share this post</div>
+                <ul class="list-inline mb-0">
+                  <li class="list-inline-item">
+                    <a
+                      class="btn btn-soft-primary btn-xs btn-icon"
+                      target="_blank"
+                      href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fbillingsoftwareindia.in%2Fblogs%2Fbatch-wise-inventory-management-expiry-products%2F"
+                    >
+                      <i class="bi-facebook"></i>
+                    </a>
+                  </li>
+
+                  <li class="list-inline-item">
+                    <a
+                      class="btn btn-soft-primary btn-xs btn-icon"
+                      target="_blank"
+                      href="https://x.com/intent/post?url=https%3A%2F%2Fbillingsoftwareindia.in%2Fblogs%2Fbatch-wise-inventory-management-expiry-products%2F"
+                    >
+                      <i class="bi-twitter"></i>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        </div>
+      </div>
+
+      <!-- ================= FAQ SECTION ================= -->
+
+      <section id="faq">
+        <div class="faq container">
+          <h2>Frequently Asked Questions</h2>
+
+          <div class="accordion font-inter" id="faqInteriorAccordion">
+            <div class="accordion-item mt-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button first-btn rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq1">
+                  What is batch wise inventory management?
+                </button>
+              </h2>
+              <div id="faq1" class="accordion-collapse collapse show" data-bs-parent="#faqInteriorAccordion">
+                <div class="accordion-body">
+                  Batch wise inventory management is the process of tracking inventory separately according to batch or lot numbers. Businesses can record details such as batch number, manufacturing date, expiry date, quantity, purchase price, and available stock for each batch.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq2">
+                  Why is batch tracking important?
+                </button>
+              </h2>
+              <div id="faq2" class="accordion-collapse collapse" data-bs-parent="#faqInteriorAccordion">
+                <div class="accordion-body">
+                  Batch tracking helps businesses identify where their inventory came from, how much stock belongs to each batch, and when that stock expires. It can improve stock rotation, traceability, expiry management, and inventory accuracy.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq3">
+                  What is FEFO inventory management?
+                </button>
+              </h2>
+              <div id="faq3" class="accordion-collapse collapse" data-bs-parent="#faqInteriorAccordion">
+                <div class="accordion-body">
+                  FEFO stands for First Expiry, First Out. It means the inventory batch with the earliest expiry date is prioritized for sale before batches that expire later.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq4">
+                  Is FEFO better than FIFO for expiry-based products?
+                </button>
+              </h2>
+              <div id="faq4" class="accordion-collapse collapse" data-bs-parent="#faqInteriorAccordion">
+                <div class="accordion-body">
+                  FEFO can be more suitable for expiry-based products because it considers expiry dates directly. FIFO prioritizes inventory based on when it entered the business, while FEFO prioritizes inventory based on when it expires.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq5">
+                  Which businesses need batch wise inventory management?
+                </button>
+              </h2>
+              <div id="faq5" class="accordion-collapse collapse" data-bs-parent="#faqInteriorAccordion">
+                <div class="accordion-body">
+                  Batch tracking can be particularly useful for pharmacies, medical stores, pharmaceutical businesses, FMCG companies, food businesses, grocery stores, cosmetics businesses, supplement sellers, distributors, wholesalers, and other businesses dealing with expiry-based products.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq6">
+                  How can businesses reduce expired stock?
+                </button>
+              </h2>
+              <div id="faq6" class="accordion-collapse collapse" data-bs-parent="#faqInteriorAccordion">
+                <div class="accordion-body">
+                  Businesses can reduce expired stock by tracking batch and expiry information, monitoring near-expiry products, using appropriate stock rotation methods such as FEFO, reviewing slow-moving inventory, and improving purchase planning.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq7">
+                  Can billing software help with inventory management?
+                </button>
+              </h2>
+              <div id="faq7" class="accordion-collapse collapse" data-bs-parent="#faqInteriorAccordion">
+                <div class="accordion-body">
+                  Yes. Modern billing and inventory software can connect sales and inventory records, maintain product information, provide stock reports, and help businesses manage their inventory more efficiently.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq8">
+                  How do I manage near-expiry products?
+                </button>
+              </h2>
+              <div id="faq8" class="accordion-collapse collapse" data-bs-parent="#faqInteriorAccordion">
+                <div class="accordion-body">
+                  Identify products approaching their expiry date, prioritize their sale where appropriate, review purchasing requirements, contact suppliers about eligible returns, and monitor those batches more frequently.
+                </div>
+              </div>
+            </div>
+
+            <div class="accordion-item mt-3 rounded-3">
+              <h2 class="accordion-header">
+                <button class="accordion-button collapsed rounded-3" type="button" data-bs-toggle="collapse" data-bs-target="#faq9">
+                  What is the difference between batch tracking and inventory tracking?
+                </button>
+              </h2>
+              <div id="faq9" class="accordion-collapse collapse" data-bs-parent="#faqInteriorAccordion">
+                <div class="accordion-body">
+                  Inventory tracking generally tells you how much stock you have. Batch tracking provides a more detailed view by showing which specific batch the stock belongs to and information such as its manufacturing and expiry dates.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+    <!-- Section: Try C2A -->
+    <section class="try container">
+      <div class="content">
+        <div class="img">
+          <img
+            class="img-fluid c2a-img"
+            src="../../assets/CTA Image.webp"
+            alt="CTA Image"
+          />
+        </div>
+
+        <div class="text">
+          <h3>Try the Hitech Billsoft Software today and grow your business</h3>
+          <button class="btn btn-light">
+            <a href="https://www.billingsoftwareindia.in/download/"
+              >Try for FREE Today!!</a
+            >
+          </button>
+          <p>
+            Join Millions of Business Owners already saving time and
+            <br class="d-none d-md-block" />
+            money with Hitech Billsoft.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Section: Try C2A -->
+
+    <!-- Section: Footer -->
+    <div id="footer"></div>
+    <!-- Section End: Footer -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
+      crossorigin="anonymous"
+      defer
+    ></script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+      async function LoadHTML() {
+        const footer = await fetch("../../services/footer.html");
+        const header = await fetch("../../services/header.html");
+        const headerEl = document.getElementById("header");
+        const footerEl = document.getElementById("footer");
+        footerEl.innerHTML = await footer.text();
+        headerEl.innerHTML = await header.text();
+
+        // ############################ NEW STUFF ##############################
+        const toggle = document.getElementById("quickLinksToggle");
+        const collapsible = document.getElementById("quickLinksCollapsible");
+        const chevron = document.querySelector(".quick-links-chevron");
+
+        if (toggle && collapsible) {
+          toggle.addEventListener("click", function () {
+            const isExpanded = this.getAttribute("aria-expanded") === "true";
+
+            if (isExpanded) {
+              collapsible.style.maxHeight = collapsible.scrollHeight + "px";
+              setTimeout(() => {
+                collapsible.style.maxHeight = "0";
+              }, 10);
+              this.setAttribute("aria-expanded", "false");
+              collapsible.classList.remove("open");
+              if (chevron) chevron.style.transform = "rotate(0deg)";
+            } else {
+              // Open
+              collapsible.classList.add("open");
+              collapsible.style.maxHeight = collapsible.scrollHeight + "px";
+              this.setAttribute("aria-expanded", "true");
+              if (chevron) chevron.style.transform = "rotate(180deg)";
+              setTimeout(() => {
+                if (collapsible.classList.contains("open")) {
+                  collapsible.style.maxHeight = "none";
+                }
+              }, 300);
+            }
+          });
+        }
+
+        // ############################ NEW STUFF ENDS HERE ##############################
+
+        const bookingForm = document.getElementById("bookDemoForm");
+
+        const bookingRules = {
+          name: { required: true, min: 2, max: 100 },
+          contact_number: { required: true, max: 20, min: 10, numeric: true },
+        };
+        bookingForm.addEventListener("submit", async function (e) {
+          e.preventDefault();
+          const data = await getFormData(bookingRules, bookingForm);
+          if (!data) return;
+          data.tran_type = "BOOK_DEMO";
+          showToast(
+            "success",
+            "Demo request submitted. We'll contact you shortly.",
+          );
+          bookingForm.reset();
+          bootstrap.Modal.getInstance(
+            document.getElementById("exampleModal"),
+          ).hide();
+
+          try {
+            const bookingRes = await fetch(
+              "https://billingsoftwareindia.in/internal/forms/formgateway.ashx",
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify(data),
+                credentials: "include",
+              },
+            );
+            const json = await bookingRes.json();
+            if (!bookingRes.ok) {
+              showToast("error", "Submission failed. Please try again.");
+            }
+          } catch (error) {
+            console.error("An error occurred while submitting the form!");
+            showToast("error", "Submission failed. Please try again.");
+          }
+        });
+
+        const headerLoadedEvent = new CustomEvent("headerLoaded");
+        document.body.dispatchEvent(headerLoadedEvent);
+        const waForm = document.getElementById("contactWaForm");
+
+        const formRules = {
+          name: { required: true, min: 2, max: 20 },
+          contact_number: { required: true, min: 10, max: 15, numeric: true },
+        };
+
+        waForm.addEventListener("submit", async (e2) => {
+          e2.preventDefault();
+
+          const waData = getFormData(formRules, waForm);
+          if (!waData) return;
+          waData.tran_type = "MESSAGE_BUBBLE";
+          showToast("success", "Thanks for reaching out!");
+
+          try {
+            const waFormRes = await fetch(
+              "https://billingsoftwareindia.in/internal/forms/formgateway.ashx",
+              {
+                method: "POST",
+                headers: {
+                  "Content-Type": "application/json",
+                },
+                body: JSON.stringify(waData),
+                credentials: "include",
+              },
+            );
+
+            const json = await waFormRes.json();
+
+            if (waFormRes.ok) {
+              waForm.reset();
+
+              // Redirect
+              const a = document.createElement("a");
+              a.href = "https://web.whatsapp.com/send?phone=+916262989804";
+              a.target = "_blank";
+              document.body.appendChild(a);
+              a.click();
+              document.body.removeChild(a);
+            } else {
+              showToast("error", "Submission failed. Please try again.");
+            }
+          } catch (error) {
+            console.error("An error occurred while submitting the form!");
+            showToast("error", "Submission failed. Please try again.");
+          }
+        });
+
+        const contactWaBtn = document.getElementById("contactWAButton");
+        const popover = document.getElementById("contactPopover");
+
+        function openPopover() {
+          popover.setAttribute("data-open", "true");
+          popover.setAttribute("aria-hidden", "false");
+        }
+
+        function closePopover() {
+          popover.removeAttribute("data-open");
+          popover.setAttribute("aria-hidden", "true");
+        }
+
+        contactWaBtn.addEventListener("click", (e) => {
+          e.stopPropagation();
+          popover.hasAttribute("data-open") ? closePopover() : openPopover();
+        });
+
+        document.addEventListener("click", (e) => {
+          if (
+            popover.hasAttribute("data-open") &&
+            !popover.contains(e.target) &&
+            !contactWaBtn.contains(e.target)
+          ) {
+            closePopover();
+          }
+        });
+
+        document.addEventListener("keydown", (e) => {
+          if (e.key === "Escape" && popover.hasAttribute("data-open")) {
+            closePopover();
+          }
+        });
+      }
+      LoadHTML();
+
+      const swiper = new Swiper(".swiper", {
+        loop: true,
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/notyf@3/notyf.min.js"></script>
+    <script src="../../js/form.min.js"></script>
+  </body>
+</html>
