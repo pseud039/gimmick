@@ -18,7 +18,9 @@ pids
 *.pid
 *.seed
 *.pid.lock
-
+original.html
+template.html
+work/
 Dependency directories
 
 node_modules/
@@ -74,3 +76,7 @@ IDE / Operating System specifics
 *.sln
 *.swp
 REA
+# next
+.next/
+.env
+.env.local

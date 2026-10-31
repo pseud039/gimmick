@@ -1,16 +1,26 @@
 {
   "name": "blog-pipeline",
-  "version": "1.0.0",
+  "version": "2.0.0",
+  "private": true,
   "type": "module",
   "engines": {
-    "node": ">=18.3"
+    "node": ">=18.18"
   },
   "scripts": {
-    "make-template": "node make-template.js original.html template.html"
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
   },
   "dependencies": {
-    "@google/genai": "latest",
+    "@tailwindcss/postcss": "^4.3.3",
+    "@tailwindcss/typography": "^0.5.20",
+    "autoprefixer": "^10.6.2",
     "cheerio": "^1.0.0",
-    "dotenv": "^18.0.9"
+    "jszip": "^3.10.2",
+    "next": "^14.2.15",
+    "postcss": "^8.5.32",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "tailwindcss": "^4.3.3"
   }
 }
